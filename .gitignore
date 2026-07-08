@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Model weights and cache
+/model_cache/
+*.safetensors
+*.safetensors.index.json
+*.bin
+*.pt
+*.pth
+*.incomplete
+
+# HuggingFace cache
+.cache/
+
+# Generated runtime output
+output/results.json
+output/*.srt
+output/*.vtt
+output/*.tmp
+
+# Temp download dirs
+vcap_*/
+video_frames_*/
+*.tmp
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
